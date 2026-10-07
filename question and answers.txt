@@ -1,0 +1,8 @@
+Why use useEffect here?
+To run the API request when the Courses component loads.
+
+What does setCourses do?
+It updates the React state with the courses returned by the backend, causing the table to re-render.
+
+Why can Postman work while a browser request fails?
+Postman is not restricted by browser CORS rules, while browser requests are subject to CORS configuration.
